@@ -13,3 +13,5 @@ if st.button('오늘의 운세보기'):
     with st.spinner('운세 보는 중...'):
         result = llm.predict(content + "의 오늘의 운세를 봐 줘")
         st.write(result)
+
+st.image('sunrise.jpg', caption='Sunrise by the mountains')
