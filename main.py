@@ -21,7 +21,7 @@ if st.button('오늘의 운세보기'):
 
 # Advertisement iframe
 advertisement_iframe = """
-<iframe src="https://ads-partners.coupang.com/widgets.html?id=769781&template=carousel&trackingCode=AF7086871&subId=&width=100%&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+<iframe src="https://ads-partners.coupang.com/widgets.html?id=769781&template=carousel&trackingCode=AF7086871&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
 """
 
 st.markdown(advertisement_iframe, unsafe_allow_html=True)
